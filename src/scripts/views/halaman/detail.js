@@ -2,6 +2,7 @@ import UrlParser from '../../routes/url-parser';
 import DaftarRestaurantSource from '../../data/daftarrestaurant-source';
 import { createDetailrestaurant } from '../templates/template-creator';
 import LikeButtonInitiator from '../../utils/favorit-initiator';
+import {id}from '../../../../jest.config';
 
 const Detail = {
   async render() {

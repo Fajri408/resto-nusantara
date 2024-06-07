@@ -2,6 +2,8 @@ import 'regenerator-runtime';
 import '../styles/style.scss';
 import App from './views/apps';
 import registerServiceWorker from './utils/servicework-register';
+import 'lazysizes';
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 const skipLink = document.querySelector('.skip-link');
 const mainContent = document.querySelector('#maincontent');
